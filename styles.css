@@ -1,0 +1,16 @@
+html * {
+  font-family: "Proxima Nova", -apple-system, Roboto, Arial, sans-serif;
+  background-color: rgb(232, 229, 230);
+}
+.nav-header {
+  background-color: rgba(251,228,13,255);
+  display: grid;
+}
+
+.home {
+  background-color: rgb(232, 229, 230);
+}
+
+.nav-footer {
+  background-color: rgb(255, 255, 255);
+}
