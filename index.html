@@ -14,10 +14,19 @@
 
 <body>
     <header>
-        <div class="nav-header">
-            <img src="/img/logotipo.png" alt="" width="163px" height="52px">
-            </a>
-        </div>
+        <nav class="nav-header">
+            <div class="container-fluid">
+                <a class="logotipo">
+                    <img src="/img/logotipo.png" alt="" width="163px" height="52px">
+                </a>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control" type="search" placeholder="Buscar productos, marcas y más..."
+                        aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
     </header>
     <main>
         <div class="home">

@@ -3,8 +3,13 @@ html * {
   background-color: rgb(232, 229, 230);
 }
 .nav-header {
-  background-color: rgba(251,228,13,255);
+  background-color: rgba(251, 228, 13, 255);
   display: grid;
+}
+
+.container-fluid {
+  background-color: rgba(251, 228, 13, 255);
+  margin: 10px;
 }
 
 .home {
